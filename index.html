@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brechónomo</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <section class="caixinha">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FFicheiro%3AWhatsApp_black.jpg&psig=AOvVaw3rUK82iLeiQbKHssYNA8T3&ust=1741696762848000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjihpzE_4sDFQAAAAAdAAAAABAE"
-            id="toggleButton" alt="Abrir/Fechar Contato" style="cursor: pointer;">
+            <img src="data:image/png;base64,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"
+                id="toggleButton" alt="Abrir/Fechar Contato" style="cursor: pointer;">
             <form action="#" method="post" id="contactForm">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>>
@@ -27,7 +29,8 @@
         <nav class="navbar">
             <div>
                 <div class="logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Gremio_logo.svg" class="logobrechonomo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Gremio_logo.svg"
+                        class="logobrechonomo">
                 </div>
                 <ul>
                     <li><a href="#produtos">Produtos</a></li>
@@ -36,6 +39,22 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="info-ticker">
+            <p>CONFIRA NOSSAS PROMOÇÕES DA SEMANA DO CONSUMIDOR!</p>
+        </div>
     </header>
+
+    <main>
+        <section id="sobre">
+            <div class="conteudo">
+                <h1>Bem-Vindo ao Brechonomo</h1>
+                <p>Tudo de roupas com o melhor preço!</p>
+            </div>
+            <div>
+                <h1 class="textprodutos">Produtos</h1>
+            </div>
+
 </body>
+
 </html>

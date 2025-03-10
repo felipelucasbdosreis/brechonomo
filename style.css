@@ -6,6 +6,74 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.caixinha {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    width: auto;
+    height: auto; 
+    background-color: rgb(17, 142, 184);
+    padding: 15px; 
+    border-radius: 10px;
+    border: 1px solid #ccc; 
+    color: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    z-index: 15;
+}
+
+.caixinha.visible {
+    width: 250px;
+    height: auto;
+    min-height: 400px;
+}
+
+.caixinha img {
+    width: 40px;
+    height: 40px;
+}
+
+.caixinha label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.caixinha input[type="text"],
+.caixinha input[type="email"],
+.caixinha input[type="mensagem"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.caixinha button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.caixinha button:hover {
+    background-color: #0056b3;
+}
+
+#contactForm {
+    display: none;
+}
+
+#contactForm.visible {
+    display: block;
+}
+
+
 .navbar {
     background-color: rgb(17, 142, 184);
     padding: 16px;
@@ -37,6 +105,21 @@ section {
     gap: 50px;
     width: 50px;
     position: relative;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .navbar a {
