@@ -1,0 +1,51 @@
+section {
+    margin: 32px 0;
+    padding: 32px;
+    background-color: rgb(246, 254, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    background-color: rgb(17, 142, 184);
+    padding: 16px;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.logo {
+    align-content: center;
+}
+
+.logobrechonomo {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #d5c06b;
+    border: 2px solid #d5c06b;
+    border-radius: 4px;
+}
