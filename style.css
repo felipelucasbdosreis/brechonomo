@@ -132,3 +132,34 @@ section {
     border: 2px solid #d5c06b;
     border-radius: 4px;
 }
+
+.peca {
+    background-color: white;
+    margin: 12px;
+    border-radius: 50px;
+    min-height: 55%;
+    max-height: 55%;
+}
+
+.descrições {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 80%;
+    margin: 10px auto;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(223, 223, 223), rgb(175, 175, 175));
+}
+
+.descrições button {
+    padding: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.descrições button:hover {
+    background-color: #0056b3
+}
