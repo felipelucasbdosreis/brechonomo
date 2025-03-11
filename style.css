@@ -255,7 +255,7 @@ section {
 
 .sobrenos {
     text-align: left;
-    position: relative;
+    position: center;
     margin-bottom: 8px;
     font-size: x-large;
 }
@@ -281,4 +281,22 @@ section {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgb(48, 46, 43);
+}
+
+.textprodutos {
+    font-size: larger;
+    text-align: center;
 }
