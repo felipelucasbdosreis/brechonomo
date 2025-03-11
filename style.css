@@ -163,3 +163,92 @@ section {
 .descrições button:hover {
     background-color: #0056b3
 }
+
+.carousel-container {
+    position: relative;
+    width: 1650px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;/
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    background-color: #6b6b6b;
+    border-radius: 50px;
+    gap: 10px;
+    margin: 15px;
+    padding: 8px;
+    background: radial-gradient(circle, #6666668c, #1d1d1dda);
+    box-shadow: 0px 4px 8px rgba(46, 46, 46, 0.65);
+    justify-content: space-between;
+    height: 650px;
+    
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.info-ticker {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #333;
+    padding: 6px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.info-ticker p {
+    display: inline-block;
+    animation: ticker 7s linear infinite;
+    color: whitesmoke;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
